@@ -1,3 +1,28 @@
+{
+    "uuid": "096F6EEC-ECB4-4FBA-B159-1938DDDE9EFB",
+    "type": "Homework",
+    "title": "Heap Homework",
+    "set": "Homework",
+    "module": "Heap Module",
+    "number": "1",
+    "allowAccess": [
+        {
+            "startDate": "2023-02-01T20:00:00",
+            "endDate": "2024-02-06T20:00:00",
+            "credit": 0
+        }
+    ],
+    "zones": [
+        {
+            "questions": [
+                {"id": "Q1", "points": 0, "maxPoints": 0},
+                {"id": "Q2", "points": 0, "maxPoints": 0}
+            ]
+        }
+    ],
+    "comment": "You can add comments to JSON files using this property."
+  }
+
 import sys
 import os
 import uuid

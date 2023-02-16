@@ -1,0 +1,10 @@
+{
+    "uuid": "1c3a5521-d85e-4f90-af95-336b95b14f58",
+    "longName": "SP23 Experimental 61B",
+    "allowAccess": [
+        {
+            "startDate": "2023-02-01T20:00:00",
+            "endDate": "2024-02-06T20:00:00"
+        }
+    ]
+}

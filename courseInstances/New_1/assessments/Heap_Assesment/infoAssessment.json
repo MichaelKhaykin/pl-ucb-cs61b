@@ -1,0 +1,26 @@
+{
+    "uuid": "20e15501-45d8-43dd-a0e7-86f000111c40",
+    "type": "Homework",
+    "title": "Heap_Assesment",
+    "set": "Homework",
+    "number": "1",
+    "allowAccess": [
+        {
+            "startDate": "2023-02-01T20:00:00",
+            "endDate": "2024-02-06T20:00:00",
+            "credit": 0
+        }
+    ],
+    "zones": [
+        {
+            "questions": [
+                {"id": "Q1", "points": 0, "maxPoints": 0},
+                {"id": "Q2", "points": 0, "maxPoints": 0},
+                {"id": "Q3", "points": 0, "maxPoints": 0},
+                {"id": "Q4", "points": 0, "maxPoints": 0},
+                {"id": "Q5", "points": 0, "maxPoints": 0},
+                {"id": "Q6", "points": 0, "maxPoints": 0}
+            ]
+        }
+    ]
+}

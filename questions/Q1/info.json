@@ -1,7 +1,7 @@
 {
     "uuid": "C61F09F1-2EF3-4919-8359-5671B205D95F",
-    "title": "Add two numbers",
-    "topic": "Algebra",
-    "tags": ["mwest", "fa17", "tpl101", "v3"],
+    "title": "Heap question 1",
+    "topic": "Heaps",
+    "tags": ["heaps"],
     "type": "v3"
 }

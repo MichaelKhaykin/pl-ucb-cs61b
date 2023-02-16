@@ -1,0 +1,15 @@
+{
+    "uuid": "1c3ccfac-6526-4778-a9f3-0096758294fd",
+    "title": "Brute force solution",
+    "topic": "Heap",
+    "tags": [
+        "heap"
+    ],
+    "type": "v3",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-java",
+        "timeout": 10,
+        "entrypoint": "autograder.sh"
+    }
+}

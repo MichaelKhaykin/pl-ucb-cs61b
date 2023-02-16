@@ -1,0 +1,36 @@
+
+<h1>Brute Force Solution</h1>
+<pl-question-panel>
+  <pl-file-editor file-name="BruteForceSolution.java" ace-mode="ace/mode/java" source-file-name = "./BruteForceSolution.java", ace-theme="ace/theme/monokai"/></pl-file-editor>
+
+
+
+  <br>
+
+  <ul> 
+    <li> We have a solution that is &theta;(nlog(n)) but can we do better?</li>
+    <li>Think about the locality of the elements, should an element at index 0 ever be compared to an element at index 10 if k = 3?</li>
+  </ul>
+
+  <ol>
+    <li>Check the boxes of all possible locations for which "3" can be placed for k = 3.</li>
+    <pl-checkbox answers-name= "hpos" weight = "1" fixed-order = true hide-letter-keys = true inline = true>
+      <pl-answer correct = "true" >3</pl-answer>
+      <pl-answer correct = "true" >2</pl-answer>
+      <pl-answer correct = "true" >1</pl-answer>
+      <pl-answer correct = "true" >5</pl-answer>
+      <pl-answer>4</pl-answer>
+      <pl-answer>7</pl-answer>
+      <pl-answer>6</pl-answer>
+      <pl-answer>5</pl-answer>
+    </pl-checkbox>
+  </ol>
+
+  <p>Consider the following when designing an optimal solution: </p>
+  <ul>
+    <li>We know that each element is only “k” elements away - what if we used a priority queue to store “k+1” elements at a time?</li>
+    <li>Where should the top element of the priority queue go in the array?</li>
+    <li>How many elements should we add to the priority queue when removing the top element?</li>
+  </ul>
+</pl-question-panel>
+
