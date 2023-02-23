@@ -5,8 +5,9 @@
     <li>
       <p>What would the program output given:</p>
       <ul>
-          <li>List = [3, 1, 2, 2]</li>
-          <li>k = 3</li>
+          <li>List: {{params.input_list_1}}</li>
+          <li>k = {{params.k_1}}</li>
+          
       </ul>
       <br>
       <pl-matrix-component-input answers-name="OutputList1" label="$OutputList$"></pl-matrix-component-input>
@@ -15,7 +16,7 @@
     <br>
 
     <li>
-      <p>Create a list of length 5 with k = 3</p>
+      <p>Create a list of length {{params.input_list_2_length}} with k = {{params.k_2}}</p>
       <br>
       <pl-matrix-component-input answers-name="OutputList2" label="$OutputList$"></pl-matrix-component-input>
     </li>
@@ -25,10 +26,10 @@
     <li>
       <p>What is the minimum value of K given:</p>
       <ul>
-        <li>List = [1, 4, 2, 5, ,2, 8, 6]</li>
+        <li>List = {{params.input_list_3}}</li>
       </ul>
       <br>
-      <pl-number-input answers-name="OutputK1" label="$k = $" show-placeholder = false></pl-number-input>
+      <pl-number-input answers-name="Output3" label="$k = $" show-placeholder = false></pl-number-input>
     </li>
 
     
